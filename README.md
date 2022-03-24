@@ -4,12 +4,12 @@
 Helm starters使用`helm create`命令来创建自定义默认chart.
 
 Example helm starters:
-* <https://github.com/LukeLiaoNote/helm-starter>
+* <https://github.com/LukeLiaoNote/helm-starter-demo.git>
 
 ## 安装
 
 ```sh
-> helm plugin install https://github.com/LukeLiaoNote/helm-starter.git
+helm plugin install https://github.com/LukeLiaoNote/helm-starter.git
 ```
 
 ## 用法
@@ -24,12 +24,12 @@ Example helm starters:
 To use a starter, run:
 
 ```sh
-> helm create NAME --starter STARTERNAME
+helm create NAME --starter STARTERNAME
 ```
 
 ## 示例
 
 ```sh
-> helm starter fetch GITURL
-> helm create test --starter STARTERNAME
+helm starter fetch https://github.com/LukeLiaoNote/helm-starter-demo.git
+helm create demo --starter helm-starter-demo
 ```
