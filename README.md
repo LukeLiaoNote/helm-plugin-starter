@@ -1,9 +1,9 @@
-# helm-starter
+# helm-plugin-starter
 
 用于管理[helm starters](https://helm.sh/docs/developing_charts/#chart-starter-packs)的helm3插件. 
 Helm starters使用`helm create`命令来创建自定义默认chart.
 
-Example helm starters:
+helm starters示例:
 * <https://github.com/LukeLiaoNote/helm-starter-demo.git>
 
 ## 安装
@@ -21,7 +21,7 @@ helm plugin install https://github.com/LukeLiaoNote/helm-starter.git
 * `helm starter inspect NAME`: Print out a starter's readme
 * `helm starter --help`: print help
 
-To use a starter, run:
+使用starter:
 
 ```sh
 helm create NAME --starter STARTERNAME
